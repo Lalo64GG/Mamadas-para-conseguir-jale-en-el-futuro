@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="406.0" prefWidth="513.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.poointerfaz.Venta">
+
+
+    <children>
+        <Pane layoutX="122.0" layoutY="29.0" prefHeight="349.0" prefWidth="269.0" style="-fx-background-color: #4c7a34; -fx-background-radius: 30;">
+            <children>
+                <RadioButton fx:id="fruta" layoutX="17.0" layoutY="96.0" mnemonicParsing="false" style="-fx-text-fill: #000000;" text="Fruta" />
+                <RadioButton fx:id="granos" layoutX="135.0" layoutY="96.0" mnemonicParsing="false" style="-fx-text-fill: #000000;" text="Granos" />
+                <Label fx:id="mensaje" layoutX="41.0" layoutY="265.0" prefHeight="20.0" prefWidth="180.0" style="-fx-text-fill: red;" textOverrun="CENTER_ELLIPSIS">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+                <Label layoutX="16.0" layoutY="140.0" style="-fx-text-fill: #000000;" text="Ingrese cantidad" textAlignment="RIGHT" textOverrun="CENTER_ELLIPSIS">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="cantidad" layoutX="15.0" layoutY="174.0" prefHeight="25.0" prefWidth="203.0" style="-fx-background-color: white;" />
+                <Label layoutX="16.0" layoutY="209.0" style="-fx-text-fill: #000000;" text="Ingrese nombre del comprador " textOverrun="CENTER_ELLIPSIS">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="cliente" layoutX="17.0" layoutY="229.0" prefHeight="25.0" prefWidth="203.0" style="-fx-background-color: #7a7a7a;" />
+                <Button layoutX="79.0" layoutY="307.0" mnemonicParsing="false" onAction="#vender" prefHeight="25.0" prefWidth="102.0" style="-fx-background-color: #c1d045; -fx-text-fill: #000000; -fx-background-radius: 20;" text="Aceptar" />
+                <Label layoutX="61.0" layoutY="14.0" prefHeight="36.0" prefWidth="138.0" style="-fx-text-fill: #000000;" text="Generar venta">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                </Label>
+                <Label layoutX="121.0" layoutY="141.0" prefHeight="17.0" prefWidth="59.0" textAlignment="RIGHT">
+                    <font>
+                        <Font size="14.0" />
+                    </font></Label>
+            <Label fx:id="mostrarCant" layoutX="-3.0" layoutY="50.0" prefHeight="36.0" prefWidth="269.0" style="-fx-text-fill: black;" />
+            <Label fx:id="a" layoutX="40.0" layoutY="267.0" prefHeight="17.0" prefWidth="180.0" style="-fx-text-fill: black;" />
+
+            </children>
+        </Pane>
+        <Button fx:id="salir" layoutX="477.0" layoutY="14.0" mnemonicParsing="false" onAction="#regresarMenu" style="-fx-background-color: red; -fx-background-radius: 50;" text="x" />
+    </children>
+</Pane>

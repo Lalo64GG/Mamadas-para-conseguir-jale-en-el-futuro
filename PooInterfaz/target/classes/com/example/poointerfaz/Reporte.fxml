@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:controller="com.example.poointerfaz.GenerarReporte" prefHeight="406.0" prefWidth="513.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+<children>
+      <Button onAction="#regresarMenu" fx:id="salir" layoutX="477.0" layoutY="17.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="22.0" style="-fx-background-radius: 20; -fx-background-color: red;" text="x" />
+    <Pane layoutX="114.0" layoutY="29.0" prefHeight="349.0" prefWidth="269.0" style="-fx-background-color: #4c7a34; -fx-background-radius: 30;">
+        <children>
+            <Button onAction="#imprimirReporte" layoutX="84.0" layoutY="285.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="102.0" style="-fx-background-color: #c1d045; -fx-text-fill: #000000; -fx-background-radius: 20;" text="Aceptar" />
+            <TextArea fx:id="text" layoutX="8.0" layoutY="48.0" prefHeight="218.0" prefWidth="248.0" style="-fx-background-radius: red;" text="&#10;" />
+            <Label layoutX="84.0" layoutY="14.0" prefHeight="36.0" prefWidth="102.0" style="-fx-text-fill: #000000;" text="Generar reporte ">
+            </Label>
+        </children>
+    </Pane>
+</children>
+</Pane>

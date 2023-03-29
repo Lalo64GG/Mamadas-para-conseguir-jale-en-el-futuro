@@ -1,0 +1,4 @@
+Nombre del que adquirio el producto: rdfd
+Adquirio: fruta
+Unidades 10.0
+precio total: 170.0

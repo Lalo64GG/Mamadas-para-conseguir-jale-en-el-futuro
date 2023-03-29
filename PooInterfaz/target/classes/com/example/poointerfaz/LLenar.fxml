@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.poointerfaz.LlenarAlmacen">
+    <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+        <children>
+            <Pane layoutX="181.0" layoutY="20.0" prefHeight="360.0" prefWidth="269.0" style="-fx-background-color: #4c7a34; -fx-background-radius: 30;">
+                <children>
+                    <RadioButton fx:id="fruta" layoutX="22.0" layoutY="124.0" mnemonicParsing="false" style="-fx-text-fill: #000000;" text="Fruta" />
+                    <RadioButton fx:id="granos" layoutX="143.0" layoutY="124.0" mnemonicParsing="false" style="-fx-text-fill: #000000;" text="Granos" />
+                    <Label layoutX="22.0" layoutY="96.0" prefHeight="20.0" prefWidth="197.0" style="-fx-text-fill: #000000;" text="Que producto desea encargar" textOverrun="CENTER_ELLIPSIS">
+                    </Label>
+                    <Label layoutX="26.0" layoutY="173.0" style="-fx-text-fill: #000000;" text="Ingrese las unidades a encargar" textOverrun="CENTER_ELLIPSIS">
+                        <font>
+                            <Font size="14.0" />
+                        </font>
+                    </Label>
+                    <TextField fx:id="canti" layoutX="22.0" layoutY="200.0" prefHeight="25.0" prefWidth="203.0" style="-fx-background-color: #7a7a7a;" />
+                    <Button layoutX="72.0" layoutY="287.0" mnemonicParsing="false" onAction="#encargarProducto" prefHeight="25.0" prefWidth="102.0" style="-fx-background-color: #c1d045; -fx-text-fill: #000000; -fx-background-radius: 20;" text="Aceptar" />
+                    <Label layoutX="46.0" layoutY="14.0" prefHeight="36.0" prefWidth="178.0" style="-fx-text-fill: #000000;" text="Encargar producto">
+                        <font>
+                            <Font size="20.0" />
+                        </font>
+                    </Label>
+               <Label fx:id="mensaje" layoutX="68.0" layoutY="244.0" prefHeight="17.0" prefWidth="134.0" style="-fx-text-fill: black;" />
+                </children>
+            </Pane>
+         <Button fx:id="salir" layoutX="575.0" layoutY="1.0" mnemonicParsing="false" onAction="#regresarMenu" style="-fx-background-color: red; -fx-background-radius: 50;" text="x" />
+        </children>
+    </Pane>
+
+
+</AnchorPane>
