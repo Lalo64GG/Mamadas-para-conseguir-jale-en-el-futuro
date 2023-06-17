@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="321.0" prefWidth="500.0" style="-fx-background-color: #ccc6c6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proyectoedac1.verInventario">
+   <children>
+      <Label layoutX="162.0" layoutY="22.0" style="-fx-background-color: red;" text="Productos disponibles" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="mostrarProductos" layoutX="38.0" layoutY="77.0" prefHeight="200.0" prefWidth="424.0" />
+      <Button layoutX="38.0" layoutY="38.0" mnemonicParsing="false" onAction="#regresarMenu" style="-fx-background-color: red;" text="Ir a menú" textFill="WHITE">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

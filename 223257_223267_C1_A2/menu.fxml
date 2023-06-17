@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="404.0" prefWidth="490.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proyectoedac1.HelloController">
+   <children>
+      <AnchorPane layoutX="-6.0" prefHeight="410.0" prefWidth="496.0" style="-fx-background-color: #ccc6c6;">
+         <children>
+            <Label layoutX="58.0" layoutY="129.0" text="1.Agregar" />
+            <Label layoutX="112.0" layoutY="14.0" text="Tiendita de Antaño" textFill="WHITE">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <Button fx:id="agregar" layoutX="217.0" layoutY="125.0" mnemonicParsing="false" onAction="#agregarProducto" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: #cd2525;" text="IR" textFill="WHITE" />
+            <Label layoutX="58.0" layoutY="180.0" text="2.Vender " />
+            <Label layoutX="58.0" layoutY="267.0" text="4.Salir" />
+            <Button fx:id="vender" layoutX="217.0" layoutY="176.0" mnemonicParsing="false" onAction="#venderProducto" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: #cd2525;" text="IR" textFill="WHITE" />
+            <Button fx:id="salir" layoutX="217.0" layoutY="263.0" mnemonicParsing="false" onAction="#salirApp" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: #cd2525;" text="IR" textFill="WHITE" />
+            <Label layoutX="46.0" layoutY="57.0" text="Menú" textFill="WHITE">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+            <Label layoutX="58.0" layoutY="225.0" text="3.Ver inventario " />
+            <Button  layoutX="217.0" layoutY="221.0" mnemonicParsing="false" onAction="#verInventario" prefHeight="25.0" prefWidth="52.0" style="-fx-background-color: #cd2525;" text="IR" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

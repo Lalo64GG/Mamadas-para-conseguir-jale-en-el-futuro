@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="307.0" prefWidth="314.0" style="-fx-background-color: #ccc6c6;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.proyectoedac1.vender">
+   <children>
+      <Label layoutX="89.0" layoutY="14.0" style="-fx-background-color: red;" text="Vender producto" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="93.0" layoutY="75.0" text="Codigo del producto">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="106.0" layoutY="154.0" prefHeight="17.0" prefWidth="104.0" text="Cantidad a vender" />
+      <TextField fx:id="codigoField" layoutX="83.0" layoutY="109.0" />
+      <TextField fx:id="cantidadField" layoutX="84.0" layoutY="186.0" />
+      <Button layoutX="124.0" layoutY="232.0" mnemonicParsing="false" onAction="#venderProducto" style="-fx-background-color: red;" text="Confirmar" textFill="WHITE" />
+      <Button layoutX="14.0" layoutY="15.0" mnemonicParsing="false" onAction="#regresarMenu" style="-fx-background-color: red;" text="Salir" textFill="WHITE">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
